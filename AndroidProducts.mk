@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_fog.mk
+    $(LOCAL_DIR)/orion_fog.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_fog-ap2a-user \
-    lineage_fog-ap2a-userdebug \
-    lineage_fog-ap2a-eng
+    orion_fog-ap2a-user \
+    orion_fog-ap2a-userdebug \
+    orion_fog-ap2a-eng
