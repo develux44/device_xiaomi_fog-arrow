@@ -361,6 +361,10 @@ PRODUCT_PACKAGES += \
     TelephonyFog \
     WifiFog
 
+# Overlay-Ext
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-orion
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
