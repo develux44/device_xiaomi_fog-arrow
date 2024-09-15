@@ -2,16 +2,17 @@
 rm -rf hardware/google/pixel/kernel_headers/Android.bp
 
 # Clone vendor tree
-git clone https://github.com/alternoegraha/vendor_xiaomi_fog vendor/xiaomi/fog
+git clone -b fifteen https://github.com/asterixiverz/vendor_xiaomi_fog vendor/xiaomi/fog
 
 # Clone kernel tree
-git clone --depth=1 -b another-reset https://github.com/alternoegraha/wwy_kernel_xiaomi_fog_rebase kernel/xiaomi/fog
+git clone --depth=1 -b 4.19 https://github.com/asterixiverz/kernel_xiaomi_fog-msm4.19 kernel/xiaomi/fog
 
-# Clone PixelOS-AOSP hardware/xiaomi
-git clone https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
+# Clone YAAP hardware/xiaomi
+git clone -b fifteen https://github.com/yaap/hardware_xiaomi hardware/xiaomi
 
-# Clone CertifiedPropsOverlay
-git clone https://github.com/pure-soul-kk/vendor_extra vendor/extra
+# Clone private-keys
+rm -rf vendor/yaap/signing/keys
+git clone -b yaap https://github.com/asterixiverz/vendor_sign vendor/yaap/signing/keys
 
 # Kernel fixups
 cd kernel/xiaomi/fog

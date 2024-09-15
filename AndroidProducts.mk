@@ -5,9 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_fog.mk
-
-COMMON_LUNCH_CHOICES := \
-    aosp_fog-ap3a-user \
-    aosp_fog-ap3a-userdebug \
-    aosp_fog-ap3a-eng
+    $(LOCAL_DIR)/yaap_fog.mk
