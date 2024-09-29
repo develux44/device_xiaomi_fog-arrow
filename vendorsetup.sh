@@ -7,7 +7,7 @@ git clone -b fourteen https://github.com/asterixiverz/vendor_xiaomi_fog vendor/x
 
 # Clone kernel tree
 echo -e "\e[1;33mwarning:\e[0m \e[1mClone Kernel Tree\e[0m"
-git clone --depth=1 -b another-reset https://github.com/alternoegraha/wwy_kernel_xiaomi_fog_rebase kernel/xiaomi/fog
+git clone --depth=1 -b 4.19 https://github.com/asterixiverz/kernel_xiaomi_fog-msm4.19 kernel/xiaomi/fog
 
 # Clone LineageOS' hardware/xiaomi
 echo -e "\e[1;33mwarning:\e[0m \e[1mClone Hardware Dependencies for Xiaomi Devices from LineageOS\e[0m"
