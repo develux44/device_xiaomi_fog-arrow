@@ -129,3 +129,8 @@ persist.log.tag.TrafficStats=S
 persist.log.tag.ContrastColorUtil=S
 persist.log.tag.GRALLOC=S
 persist.log.tag.gralloc4=S
+
+# DroidX Props
+ro.droidx.maintainer=Iverz
+ro.droidx.chipset=Snapdragon 680 4G
+ro.droidx.display_resolution=6.71" IPS LCD 720x1650

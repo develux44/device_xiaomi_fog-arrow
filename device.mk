@@ -436,7 +436,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/qcom-caf/bootctrl \
     hardware/qcom-caf/common/libqti-perfd-client \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/droidx/interfaces/power-libperfmgr \
     hardware/xiaomi
 
 # Update engine
