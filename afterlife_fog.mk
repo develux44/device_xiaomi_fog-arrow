@@ -13,15 +13,10 @@ $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
 # AfterLife flags
 AFTERLIFE_MAINTAINER := Iverz
-
-# Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
-
-# Offline Charging
 USE_PIXEL_CHARGING := true
-
-# Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USE_ECHO := true
 
 # Inherit from fog device
 $(call inherit-product, device/xiaomi/fog/device.mk)
