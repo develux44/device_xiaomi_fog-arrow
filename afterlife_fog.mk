@@ -14,8 +14,8 @@ $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 # AfterLife flags
 AFTERLIFE_MAINTAINER := Iverz
 TARGET_BOOT_ANIMATION_RES := 720
-USE_PIXEL_CHARGING := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_BLUR := true
 TARGET_USE_ECHO := true
 
 # Inherit from fog device
