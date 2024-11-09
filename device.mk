@@ -443,6 +443,9 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/xiaomi
 
+# Signing
+include vendor/pixelage-priv/keys/keys.mk
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
